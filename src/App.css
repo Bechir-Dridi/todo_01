@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: linear-gradient(120deg, #ECBB88 0%, #FAE5B5 100%);
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.598);
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    font-size: 2rem;
+    color: azure;
+}
+
+input {
+    font-size: 1.3rem;
+    border: 2px solid #f0c6ba;
+    border-radius: 4px;
+    min-width: 80%;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo_list {
+    max-width: 100%;
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: floralwhite;
+    border-radius: .5rem;
+    border: 2px solid #FAE5B5;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.list {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.598);
+}
+
+button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+button {
+    color: #ff6f47;
+    background: #f7fffe;
+    border-radius: .5rem;
+}
+
+.done_button button {
+    background-color: #ECBB88;
+    color: white;
+    border: 2px solid #f0c6ba;
+    margin-left: .2rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+
+/* Button Hover: */
+.button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(254, 193, 80);
+    transform: scale(1.1);
+}
+
+select {
+    font-size: 1rem;
+    color: #ff7e5b;
+    border-radius: .2rem;
+    border: 2px solid #f0c6ba;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    margin: .5rem;
+    width: 7.5rem;
+    height: 1.7rem;
+
+}
